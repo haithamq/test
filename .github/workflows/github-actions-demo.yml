@@ -18,7 +18,3 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: node version 16
-      - uses: nvm use v16.3.0
-      - name: npm install
-      - run: npm i
